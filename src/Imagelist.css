@@ -1,0 +1,57 @@
+@media(min-width: 850px){
+.img-container {
+    background-color: #7ef169;
+    width: fit-content;
+    height: fit-content;
+    margin: 2vh 0.5vw;
+    padding: 7vh 3vw;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content-headed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+ #email {
+    font-weight: lighter;
+    font-size: 1vw;
+}
+}
+
+@media(max-width: 851px){
+    .img-container {
+        background-color: #7ef169;
+        width: fit-content;
+        height: fit-content;
+        margin: 2vh 4vw;
+        padding: 7vh 3vw;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .content-headed {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 3vw;
+        margin-top: 5vh;
+    }
+    
+    #name {
+        font-weight: bold;
+        font-size: 6.5vw;
+    }
+     #email {
+        font-weight: lighter;
+        font-size: 5vw;
+    }
+    }

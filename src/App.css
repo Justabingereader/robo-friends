@@ -1,0 +1,29 @@
+@media(min-width: 850px){
+    body {
+        background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
+        margin: 0;
+        padding: 0;
+    }
+
+     h1 {
+        font-weight: bolder;
+        font-size: 7vh;
+        margin-top: 5vh;
+        margin-left: 20vw;
+    }
+}
+
+@media(max-width: 851px){
+    body {
+        background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
+        margin: 0;
+        padding: 0;
+    }
+
+     h1 {
+        font-weight: bolder;
+        font-size: 7vh;
+        margin-top: 5vh;
+        margin-left: 15vw;
+    }
+}
