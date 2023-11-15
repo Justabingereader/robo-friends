@@ -7,7 +7,6 @@
     width: 40vw;
     height: 10vh;
     padding-left: 1vw;
-    margin-left: 20vw;
 }
 .search-input::placeholder {
     font-size: 2vw;
@@ -23,7 +22,7 @@
         width: 50vw;
         height: 15vh;
         padding-left: 5vw;
-        margin-left: 20vw;
+        margin-left: 10vw;
 }
     .search-input::placeholder {
         font-size: 7vw;
