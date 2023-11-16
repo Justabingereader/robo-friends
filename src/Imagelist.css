@@ -1,7 +1,7 @@
 @media(min-width: 850px){
 .img-container {
     background-color: #7ef169;
-    width: fit-content;
+    width: 20vw;
     height: fit-content;
     margin: 2vh 0.5vw;
     padding: 7vh 3vw;
@@ -9,12 +9,16 @@
     border-radius: 10px;
 }
 
+.img-pic {
+    text-align: center;
+    width: 20vw;
+}
 .content-headed {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 7vw;
     margin-top: 5vh;
+    margin-left: 7vw;
 }
 
 #name {
@@ -23,21 +27,26 @@
 }
  #email {
     font-weight: lighter;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 }
 
 @media(max-width: 851px){
     .img-container {
         background-color: #7ef169;
-        width: fit-content;
+        width: 60vw;
         height: fit-content;
-        margin: 2vh 4vw;
+        margin: 2vh 14vw;
         padding: 7vh 3vw;
         text-align: center;
         border-radius: 10px;
     }
     
+    .img-pic {
+        text-align: center;
+        width: 50vw;
+    }
+
     .content-headed {
         display: flex;
         flex-direction: row;
